@@ -1,0 +1,347 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.7in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Arati Prasad} \\ \vspace{1pt}
+     \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{8249076049} ~} \href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{aratiprasad778@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/aarti-prasad-149833167/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{LinkedIn}}  ~
+    \href{https://github.com/Arati778}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Profile}
+  \resumeSubHeadingListStart
+   
+      Front-end web developer passionate and skilled in HTML, CSS, JavaScript, ReactJS, Laravel, SQL, MySQL, Bootstrap, Postman, Material UI, Python, Django and other modern technologies. Seeking a challenging position in the tech sector where I can make use of my technical skills and drive innovation and growth.
+
+
+
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{\normalsize{Languages:}}{\normalsize{ HTML, CSS, JavaScript, python, SQL}} \\
+    \vspace{5pt} % Adjust the value to change the gap
+    
+    \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ ReactJS, Django, Laravel Bootstrap, Material UI, Styled-Components}} \\
+    \vspace{5pt} % Adjust the value to change the gap
+    
+    \textbf{\normalsize{Developer Tools:}}{\normalsize{ Git, GitHub, MySQL Netlify, Vercel, Postman, Firebase, VS-Code etc}} \\
+    \vspace{5pt} % Adjust the value to change the gap
+    }}
+
+    \textbf{\normalsize{Other Skills:}}{\normalsize{ Good Communication, Leadership, Interpersonal, Presentation Skills}} \\
+    \vspace{5pt} % Adjust the value to change the gap
+    }}
+\end{itemize}
+\vspace{-15pt}
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+   
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{ TripVilla}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ReactJS}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{1.	 Developed a responsive travel website for a travel agency using ReactJS, featuring a 
+                 Hamburger menu for seamless mobile navigation.
+
+
+
+                 2.	 Integrated React Router for smooth navigation and deployed the site on Netlify for scalability. 
+         
+             3.  Hosted the source code on GitHub to facilitate version control and collaborative
+                    development}.
+                    
+                    
+                     }
+                    
+                
+
+            \resumeItem{\textcolor{accent} {\href{Live Project Link} {\underline{\normalsize{https://trip-villa.vercel.app/}}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \vspace{5pt}
+
+
+
+\resumeSubHeadingListStart
+    
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{ Student-Management}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Laravel}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{1.	 Developed a responsive e-commerce website in React.js with useState for product listings and cart state.
+
+
+
+                 2.	Utilized useEffect to fetch data from APIs and manage side effects and  Managed user authentication and global state using useContext.
+         
+             3.  Implemented react-router-dom for smooth navigation and useParams for dynamic routing to product pages.
+             
+             4. Deployed on Vercel for scalability and performance optimization
+             }.
+                    
+                    
+                     }
+                    
+                
+
+            \resumeItem{\textcolor{accent} {\href{Live Project Link} {\underline{\normalsize{https://e-commerce-sepia-xi-22.vercel.app/}}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \vspace{5pt}
+
+
+
+
+
+
+
+
+ \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{ CrezyShop}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ReactJS}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{1.	 Developed a responsive e-commerce website in React.js with useState for product listings and cart state.
+
+
+
+                 2.	Utilized useEffect to fetch data from APIs and manage side effects and  Managed user authentication and global state using useContext.
+         
+             3.  Implemented react-router-dom for smooth navigation and useParams for dynamic routing to product pages.
+             
+             4. Deployed on Vercel for scalability and performance optimization
+             }.
+                    
+                    
+                     }
+                    
+                   
+
+            \resumeItem{\textcolor{accent} {\href{Live Project Link} {\underline{\normalsize{https://e-commerce-sepia-xi-22.vercel.app/}}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \vspace{5pt}
+
+
+
+          
+          
+      \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Portfolio}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ReactJS}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{1.	 Developed a sleek portfolio website using ReactJS.
+           
+            2.	 Implemented a router to enhance user navigation, providing a 
+                 smooth and intuitive experience across devices.
+        
+        3.	 Deployed the site on Netlify and Hosted the source code on GitHub to facilitate version  control and collaborative development
+}.
+}
+}
+\vspace{5pt}
+            \resumeItem{\textcolor{accent} {\href{Project Link} {\underline{\normalsize{https://portfoli-ap.netlify.app/}}}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \vspace{5pt}
+          
+          \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Online Testing System}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Django}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{1. Developed an Online Testing System in Django Full stack.
+            
+        2.	 In this project a student can participate in Online exam with proper authentications and security.
+ 
+      3.	 Student has the option to choose subjects and take the exam. Additionally, the OTS has the feature to provide students with their results.
+} 
+}}
+ \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+
+\vspace{-12pt}
+
+%
+
+
+%-----------EXPERIENCE-----------
+
+%-----------education---------------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Government autonomous college,Rourkela \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{2018 -- 2020}{\bold{        Master of science in Statistics ( Sambalpur University )	       
+            
+               
+
+}}{ Rourkela,  Odisha}
+          
+            
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+ 
+
+
+
+\end{document}
